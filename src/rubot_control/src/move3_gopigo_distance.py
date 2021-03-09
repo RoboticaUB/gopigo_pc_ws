@@ -7,7 +7,6 @@ robot_x = 0
 def odom_callback(data):
     global robot_x
     robot_x=data.pose.pose.position.x
-    print robot_x
     rospy.loginfo("Robot Odometry x= %f\n",robot_x)
 	
 def move_rubot(lin_vel,ang_vel,distance):
@@ -37,7 +36,7 @@ def move_rubot(lin_vel,ang_vel,distance):
 
 if __name__ == '__main__':
     try:
-        rospy.init_node('rubot_control', anonymous=False)
+        rospy.init_node('rubot_nav', anonymous=False)
         v= rospy.get_param("~v")
         w= rospy.get_param("~w")
         d= rospy.get_param("~d")
