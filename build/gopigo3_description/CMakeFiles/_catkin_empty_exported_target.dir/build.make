@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/mpuig/gopigo_pc_ws/src
+CMAKE_SOURCE_DIR = /home/ubuntu/robotica2021/gopigo_pc_ws/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/mpuig/gopigo_pc_ws/build
+CMAKE_BINARY_DIR = /home/ubuntu/robotica2021/gopigo_pc_ws/build
 
 # Utility rule file for _catkin_empty_exported_target.
 
@@ -63,10 +63,10 @@ gopigo3_description/CMakeFiles/_catkin_empty_exported_target.dir/build: _catkin_
 .PHONY : gopigo3_description/CMakeFiles/_catkin_empty_exported_target.dir/build
 
 gopigo3_description/CMakeFiles/_catkin_empty_exported_target.dir/clean:
-	cd /home/mpuig/gopigo_pc_ws/build/gopigo3_description && $(CMAKE_COMMAND) -P CMakeFiles/_catkin_empty_exported_target.dir/cmake_clean.cmake
+	cd /home/ubuntu/robotica2021/gopigo_pc_ws/build/gopigo3_description && $(CMAKE_COMMAND) -P CMakeFiles/_catkin_empty_exported_target.dir/cmake_clean.cmake
 .PHONY : gopigo3_description/CMakeFiles/_catkin_empty_exported_target.dir/clean
 
 gopigo3_description/CMakeFiles/_catkin_empty_exported_target.dir/depend:
-	cd /home/mpuig/gopigo_pc_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/mpuig/gopigo_pc_ws/src /home/mpuig/gopigo_pc_ws/src/gopigo3_description /home/mpuig/gopigo_pc_ws/build /home/mpuig/gopigo_pc_ws/build/gopigo3_description /home/mpuig/gopigo_pc_ws/build/gopigo3_description/CMakeFiles/_catkin_empty_exported_target.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/ubuntu/robotica2021/gopigo_pc_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ubuntu/robotica2021/gopigo_pc_ws/src /home/ubuntu/robotica2021/gopigo_pc_ws/src/gopigo3_description /home/ubuntu/robotica2021/gopigo_pc_ws/build /home/ubuntu/robotica2021/gopigo_pc_ws/build/gopigo3_description /home/ubuntu/robotica2021/gopigo_pc_ws/build/gopigo3_description/CMakeFiles/_catkin_empty_exported_target.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : gopigo3_description/CMakeFiles/_catkin_empty_exported_target.dir/depend
 

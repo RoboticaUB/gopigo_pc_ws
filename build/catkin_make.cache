@@ -1,2 +1,2 @@
-gazebo_control:gopigo3_description:rubot_control:virtual_slam
--DCATKIN_DEVEL_PREFIX=/home/mpuig/gopigo_pc_ws/devel -DCMAKE_INSTALL_PREFIX=/home/mpuig/gopigo_pc_ws/install -G Unix Makefiles
+gazebo_control:gopigo3_description:rubot_control:virtual_slam:vision
+-DCATKIN_DEVEL_PREFIX=/home/ubuntu/robotica2021/gopigo_pc_ws/devel -DCMAKE_INSTALL_PREFIX=/home/ubuntu/robotica2021/gopigo_pc_ws/install -G Unix Makefiles

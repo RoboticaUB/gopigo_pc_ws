@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/mpuig/gopigo_pc_ws/src
+CMAKE_SOURCE_DIR = /home/ubuntu/robotica2021/gopigo_pc_ws/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/mpuig/gopigo_pc_ws/build
+CMAKE_BINARY_DIR = /home/ubuntu/robotica2021/gopigo_pc_ws/build
 
 # Utility rule file for trajectory_msgs_generate_messages_eus.
 
@@ -63,10 +63,10 @@ virtual_slam/CMakeFiles/trajectory_msgs_generate_messages_eus.dir/build: traject
 .PHONY : virtual_slam/CMakeFiles/trajectory_msgs_generate_messages_eus.dir/build
 
 virtual_slam/CMakeFiles/trajectory_msgs_generate_messages_eus.dir/clean:
-	cd /home/mpuig/gopigo_pc_ws/build/virtual_slam && $(CMAKE_COMMAND) -P CMakeFiles/trajectory_msgs_generate_messages_eus.dir/cmake_clean.cmake
+	cd /home/ubuntu/robotica2021/gopigo_pc_ws/build/virtual_slam && $(CMAKE_COMMAND) -P CMakeFiles/trajectory_msgs_generate_messages_eus.dir/cmake_clean.cmake
 .PHONY : virtual_slam/CMakeFiles/trajectory_msgs_generate_messages_eus.dir/clean
 
 virtual_slam/CMakeFiles/trajectory_msgs_generate_messages_eus.dir/depend:
-	cd /home/mpuig/gopigo_pc_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/mpuig/gopigo_pc_ws/src /home/mpuig/gopigo_pc_ws/src/virtual_slam /home/mpuig/gopigo_pc_ws/build /home/mpuig/gopigo_pc_ws/build/virtual_slam /home/mpuig/gopigo_pc_ws/build/virtual_slam/CMakeFiles/trajectory_msgs_generate_messages_eus.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/ubuntu/robotica2021/gopigo_pc_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ubuntu/robotica2021/gopigo_pc_ws/src /home/ubuntu/robotica2021/gopigo_pc_ws/src/virtual_slam /home/ubuntu/robotica2021/gopigo_pc_ws/build /home/ubuntu/robotica2021/gopigo_pc_ws/build/virtual_slam /home/ubuntu/robotica2021/gopigo_pc_ws/build/virtual_slam/CMakeFiles/trajectory_msgs_generate_messages_eus.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : virtual_slam/CMakeFiles/trajectory_msgs_generate_messages_eus.dir/depend
 
